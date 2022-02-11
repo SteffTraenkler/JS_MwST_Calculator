@@ -1,0 +1,43 @@
+body {
+  display: grid;
+  place-content: center;
+}
+body section {
+  width: 120%;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.5em;
+  padding: 2% 5%;
+}
+body section div {
+  padding: 2% 5%;
+  background-color: rgba(190, 220, 229, 0.541);
+  border-radius: 3px;
+  margin: 2% auto;
+}
+body section div form {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+}
+body section div #price {
+  border-radius: 5px;
+  font-size: 1.1em;
+  width: 100px;
+  background-color: rgba(255, 235, 205, 0.555);
+}
+body section #button {
+  width: 100%;
+  height: 40px;
+  color: lightcyan;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px black;
+  background-color: #0d5b8b;
+  border-radius: 5px;
+}
+body section .ergebnis {
+  color: #1535eb;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 5px darkgrey;
+}/*# sourceMappingURL=main.css.map */
