@@ -50,14 +50,14 @@ function calcMw() {
 
             mwStTxt.innerHTML = ('Bruttobetrag (Preis inklusive Mehrwertsteuer) in Euro');
             mwStBetrag.innerHTML = (((price.value / 1.19) * 0.19).toFixed(2) + ' €');
-            bNprice = ('Nettobetrag');
+            bNprice.innerHTML = ('Nettobetrag');
             endPrice.innerHTML = ((price.value / 1.19).toFixed(2) + ' €');
         } else if (mw7.checked == true) {
             console.log(mw7.checked + " MwSt 7%");
 
             mwStTxt.innerHTML = ('Bruttobetrag (Preis inklusive Mehrwertsteuer) in Euro');
             mwStBetrag.innerHTML = (((price.value / 1.07) * 0.07).toFixed(2) + ' €');
-            bNprice = ('Nettobetrag');
+            bNprice.innerHTML = ('Nettobetrag');
             endPrice.innerHTML = ((price.value / 1.07).toFixed(2) + ' €');
         }
     } else {
